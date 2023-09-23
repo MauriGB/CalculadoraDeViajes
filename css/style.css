@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-image: linear-gradient(to top, #5ee7df 0%, #b490ca 100%);
+    height: 100%;
+}
+
+h1{
+    text-align: center;
+    font-size: x-large;
+    margin: 1em;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select, input, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#calcularBtn{
+    background-color: hsl(277, 35%, 68%);
+    border:1px solid #696969;
+}
+#calcularBtn:hover{
+    background-color: hsl(276, 26%, 61%);
+}
+
+#resultContainer, #hisotrialContainer{
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    display: none;
+    
+}
+
+#resultContainer h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+#btnHistorial, #borrarHistorial{
+    width: 150px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#hisotrialContainer {
+    display: block;
+}
+.hcss{
+    margin: 20px 20px;
+max-width: 400px;
+padding: 10px;
+font-size: medium;
+}
